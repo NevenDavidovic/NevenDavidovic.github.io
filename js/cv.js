@@ -14,7 +14,7 @@
     };
 
     function downloadCV() {
-        if (confirm("Are you sure you want to download CV from this awesome guy?")) {
+        if (confirm("Are you sure you want to download CV of this awesome guy?")) {
           window.location.href = "documents/cv.pdf";
         }
       }
