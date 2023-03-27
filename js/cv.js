@@ -1,5 +1,6 @@
     // Get the container element
     const container = document.querySelector('.container');
+    
   
     // Set the initial opacity and position
     container.style.opacity = 0;
@@ -17,3 +18,4 @@
           window.location.href = "documents/cv.pdf";
         }
       }
+
