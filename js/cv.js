@@ -14,11 +14,6 @@ window.onload = () => {
   container.style.transition = "opacity 1s, transform 1s";
 };
 
-function downloadCV() {
-  if (confirm("Are you sure you want to download CV of this awesome guy?")) {
-    window.location.href = "documents/cv.pdf";
-  }
-}
 // modal window #1
 
 const modal = document.querySelector(".modal1");
